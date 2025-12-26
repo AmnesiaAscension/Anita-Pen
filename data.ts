@@ -1,5 +1,5 @@
 
-import { Book, Post, Product, Event } from './types';
+import { Book, Post, Product, Event } from './types.ts';
 
 export const BOOKS: Book[] = [
   {

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Book, Post, Product } from './types';
+import { Book, Post, Product } from './types.ts';
 
 export const Header: React.FC = () => {
   const [isOpen, setIsOpen] = React.useState(false);

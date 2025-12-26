@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { POSTS } from '../data';
+import { POSTS } from '../data.ts';
 
 const PostDetail: React.FC = () => {
   const { slug } = useParams();

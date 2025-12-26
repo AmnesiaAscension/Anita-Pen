@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { Hero, BookCard } from '../components';
-import { BOOKS } from '../data';
+import { Hero, BookCard } from '../components.tsx';
+import { BOOKS } from '../data.ts';
 
 const Books: React.FC = () => {
   const trollBooks = BOOKS.filter(b => b.series === 'Troll');

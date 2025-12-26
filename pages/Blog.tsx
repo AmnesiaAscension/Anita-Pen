@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { Hero, PostCard } from '../components';
-import { POSTS } from '../data';
+import { Hero, PostCard } from '../components.tsx';
+import { POSTS } from '../data.ts';
 
 const Blog: React.FC = () => {
   const [search, setSearch] = useState('');

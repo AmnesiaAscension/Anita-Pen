@@ -1,16 +1,16 @@
 
 import React, { useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import { Header, Footer } from './components';
-import Home from './pages/Home';
-import Author from './pages/Author';
-import Books from './pages/Books';
-import BookDetail from './pages/BookDetail';
-import Shop from './pages/Shop';
-import Events from './pages/Events';
-import Blog from './pages/Blog';
-import PostDetail from './pages/PostDetail';
-import Contact from './pages/Contact';
+import { Header, Footer } from './components.tsx';
+import Home from './pages/Home.tsx';
+import Author from './pages/Author.tsx';
+import Books from './pages/Books.tsx';
+import BookDetail from './pages/BookDetail.tsx';
+import Shop from './pages/Shop.tsx';
+import Events from './pages/Events.tsx';
+import Blog from './pages/Blog.tsx';
+import PostDetail from './pages/PostDetail.tsx';
+import Contact from './pages/Contact.tsx';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();

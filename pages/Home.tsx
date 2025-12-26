@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Hero, BookCard, PostCard } from '../components';
-import { BOOKS, POSTS } from '../data';
+import { Hero, BookCard, PostCard } from '../components.tsx';
+import { BOOKS, POSTS } from '../data.ts';
 
 const Home: React.FC = () => {
   const featuredBooks = BOOKS.filter(b => b.series === 'Troll').slice(0, 3);

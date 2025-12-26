@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Hero } from '../components';
+import { Hero } from '../components.tsx';
 
 const Contact: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);

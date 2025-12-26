@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { Hero } from '../components';
-import { PRODUCTS } from '../data';
+import { Hero } from '../components.tsx';
+import { PRODUCTS } from '../data.ts';
 
 const Shop: React.FC = () => {
   return (

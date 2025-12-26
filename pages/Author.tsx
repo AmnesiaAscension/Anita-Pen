@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Hero } from '../components';
+import { Hero } from '../components.tsx';
 
 const Author: React.FC = () => {
   return (

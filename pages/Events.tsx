@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { Hero } from '../components';
-import { EVENTS } from '../data';
+import { Hero } from '../components.tsx';
+import { EVENTS } from '../data.ts';
 
 const Events: React.FC = () => {
   return (

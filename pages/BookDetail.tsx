@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { BOOKS } from '../data';
+import { BOOKS } from '../data.ts';
 
 const BookDetail: React.FC = () => {
   const { id } = useParams();
